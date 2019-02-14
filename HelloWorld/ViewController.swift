@@ -60,7 +60,8 @@ class ViewController: UIViewController {
         view.addSubview(buttonOne)
         buttonOne.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor, constant: 0).isActive = true
         buttonOne.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -19).isActive = true
-        buttonOne.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        buttonOne.widthAnchor.constraint(equalToConstant: 200
+            ).isActive = true
     }
 }
 
